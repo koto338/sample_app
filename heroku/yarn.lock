@@ -72,10 +72,10 @@
     lodash "^4.17.10"
     printf "0.3.0"
 
-"@heroku-cli/plugin-apps-v5@^7.49.0":
-  version "7.49.0"
-  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-apps-v5/-/plugin-apps-v5-7.49.0.tgz#1148f082a091d75ba480df55a8dde02573440fc0"
-  integrity sha512-RK1Y6Ti3MwJMCYyCiKh3WQeqta7p0AMN75D6lRqgTijYJX/TUUJEjG2+d1gLcQjm2zhddViskGBWQK3FwYY+Cw==
+"@heroku-cli/plugin-apps-v5@^7.50.0":
+  version "7.50.0"
+  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-apps-v5/-/plugin-apps-v5-7.50.0.tgz#01710010199c0e2bbe246208b7dfae42a76cd418"
+  integrity sha512-YSheAAwJY1g44U6T1Et4rwdsM5jeuRukosiv5hMdr2IelcHDoZjYkf1hwPYLz2sHAHqhQOtO9QdQYvJRcWTNPA==
   dependencies:
     "@heroku-cli/command" "^8.4.1"
     filesize "^4.0.0"
