@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
       log_in user 
       params[:session][:remember_me] == '1'? remember(user) : forget(user)
       # remember user　sessionの中身が空でなくなってしまっていたので、テストが失敗
-      redirect_to user
+      redirect_back_or user
       # ユーザーログイン後にユーザー情報のページにリダイレクトする
     else
       flash.now[:danger] = "Invalid email/password combination"
