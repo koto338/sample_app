@@ -69,10 +69,10 @@ Rails.application.configure do
   host = 'https://enigmatic-ocean-63021.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
-    :port       => ENV['MAILGUN_SMTP_PORT'],
-    :address    => ENV['MAILBUN_SMTP_SERVER'],
-    :user_name  => ENV['MAILGUN_SMTP_LOGIN'],
-    :password   => ENV['MSILGUN_SMTP_PASSWORD'],
+    :port       => ENV['587'],
+    :address    => ENV['smtp.mailgun.org'],
+    :user_name  => ENV['postmaster@sandbox0566d6789d5e4772bd874d6f53130422.mailgun.org'],
+    :password   => ENV['d95e615f21e18704766617a74e48a22a-c50a0e68-28416411SMTP'],
     :domain     => host,
     :authentication  => :plain,
   }
